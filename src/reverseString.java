@@ -2,13 +2,14 @@ import java.util.*;
 import java.io.*;
 public class reverseString {
     public static void main(String[] a){
+        //this line will take the input for the string
         Scanner sc=new Scanner(System.in);
-        String cha= sc.nextLine();
+        String word= sc.nextLine();
 
         // i can easily write: char[] arr = cha.toCharArray();
-        char[] arr =new char[cha.length()];
-        for(int i=0;i<cha.length();i++){
-            arr[i]=cha.charAt(i); //converted into array format from string
+        char[] arr =new char[word.length()];
+        for(int i=0;i<word.length();i++){
+            arr[i]=word.charAt(i); //converted into array format from string
         }
         //swap
         int left=0;
