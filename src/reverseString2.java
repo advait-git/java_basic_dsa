@@ -1,5 +1,6 @@
 import java.util.*;
 //abcdefg => bacdfeg , k=2 ,n=7
+
 public class reverseString2 {
     public static String swap(char[] ch,int i,int j){
         char temp=ch[i];
