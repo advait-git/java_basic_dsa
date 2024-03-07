@@ -11,6 +11,7 @@ public class Main_a {
             for(int idx=2;idx*idx<=n;idx++){
                 if(n%idx==0){
                     count++;
+                    break;
                 }
             }
             if(count==0){
