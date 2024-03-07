@@ -8,12 +8,12 @@ public class Main_a {
         for(int i=0;i<t;i++){
             int n=sc.nextInt();
             int count=0;
-            for(int idx=1;idx<=n;idx++){
+            for(int idx=2;idx*idx<=n;idx++){
                 if(n%idx==0){
                     count++;
                 }
             }
-            if(count==2){
+            if(count==0){
                 System.out.println("prime");
             }else{
                 System.out.println("not prime");
